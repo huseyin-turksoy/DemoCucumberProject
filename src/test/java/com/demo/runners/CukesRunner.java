@@ -13,9 +13,9 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"
         },
         features = "src/test/resources/features",
-        glue = "com/shimano/step_defs",
+        glue = "com/demo/step_defs",
         dryRun = false,
-        tags = "@smoke"
+        tags = "@wiki"
         //publish = true
 )
 public class CukesRunner {
