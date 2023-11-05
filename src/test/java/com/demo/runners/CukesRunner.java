@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/demo/step_defs",
         dryRun = false,
-        tags = "@wiki"
+        tags = "@regression"
         //publish = true
 )
 public class CukesRunner {
